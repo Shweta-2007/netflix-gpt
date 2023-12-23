@@ -16,4 +16,4 @@ Login/Sign up page
 - Movie list rows
 - NetflixGpt
 - Search bar
-- Movie suggestions
+- Movie suggestion.
