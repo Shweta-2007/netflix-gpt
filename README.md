@@ -9,9 +9,14 @@
 - Form Validation
 - useRef hook
 - firebase setup
+- create sign up user account
+- implement signinuser api
+- created redux store with user slice
+- implemented SignOut features
+- update profile
 
-#Features:
-Login/Sign up page
+  #Features:
+  Login/Sign up page
 
 - Sign In Sign Up form
 - Redirect to browse page
