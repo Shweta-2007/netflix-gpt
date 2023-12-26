@@ -14,7 +14,7 @@
 - created redux store with user slice
 - implemented SignOut features
 - update profile
-
+- fetch movies from TMDB movies
   #Features:
   Login/Sign up page
 
