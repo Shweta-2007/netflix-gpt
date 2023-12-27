@@ -25,9 +25,9 @@
 - planning for main container and secondary container
 - fetch data for trailer video
 - embedded the youtube video & made it autoplay and mute
-- TAailwind classes to make main container look awesome
-
-  #Features:
+- Tailwind classes to make main container look awesome
+- Build secondary component
+- #Features:
 
 - Login/Sign up page
 - Sign In Sign Up form
