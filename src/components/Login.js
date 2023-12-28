@@ -85,13 +85,17 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img src={NETFLIX_BODY} alt="body img" />
+        <img
+          src={NETFLIX_BODY}
+          alt="body img"
+          className="h-screen object-cover md:w-screen"
+        />
       </div>
       <form
-        className="p-12 bg-black  w-3/12 my-24 absolute mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"
+        className="p-12 bg-black  md:w-3/12 w-[80%] my-24 absolute mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"
         onSubmit={(e) => e.preventDefault()}
       >
-        <h1 className="font-bold text-3xl py-4 ">
+        <h1 className="font-bold md:text-3xl text-2xl py-4 ">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
         {!isSignInForm && (

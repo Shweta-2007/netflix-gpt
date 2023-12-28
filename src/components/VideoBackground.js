@@ -26,7 +26,7 @@ const VideoBackground = ({ movieId }) => {
   return (
     <div>
       <iframe
-        className="w-full h-full aspect-video overflow-hidden"
+        className="w-full h-full aspect-video overflow-hidden mt-2 md:mt-0"
         src={
           "https://www.youtube.com/embed/" + trailerId + "?&autoplay=1&mute=1"
         }

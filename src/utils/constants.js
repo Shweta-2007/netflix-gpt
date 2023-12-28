@@ -27,3 +27,5 @@ export const SUPPORTED_LANGUAGE = [
   { identifier: "spanish", name: "Spanish" },
   { identifier: "chinese", name: "Chinese" },
 ];
+
+export const OPENAI_KEY = "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";

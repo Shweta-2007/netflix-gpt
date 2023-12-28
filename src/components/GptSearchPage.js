@@ -5,13 +5,18 @@ import { NETFLIX_BODY } from "../utils/constants";
 
 const GptSearchPage = () => {
   return (
-    <div>
-      <div className="absolute -z-10 overflow-hidden h-screen">
-        <img src={NETFLIX_BODY} />
+    <>
+      <div className="fixed -z-10 overflow-hidden h-screen">
+        <img
+          src={NETFLIX_BODY}
+          className="h-screen object-cover md:w-screen "
+        />
       </div>
-      <GptSearchBar />
-      <GptMovieSuggestions />
-    </div>
+      <div>
+        <GptSearchBar />
+        <GptMovieSuggestions />
+      </div>
+    </>
   );
 };
 

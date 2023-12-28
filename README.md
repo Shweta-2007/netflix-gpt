@@ -37,8 +37,14 @@
 - GPT search Bar
 - Multi language feature in our GPT page
 - Integrate GPT APIs(get open AI key)
+- GPT search API call
+- Fetched GPT movie suggestions from TMDB
+- created GPT slice and added data
+- Reused movie list component to make movie suggestion container
+- Memoization
+- Responsive
 
-- #Features:
+# Features:
 
 - Login/Sign up page
 - Sign In Sign Up form
